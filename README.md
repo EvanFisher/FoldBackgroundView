@@ -6,9 +6,9 @@
 <br />
 <br />
 ##核心思路:
-- ###背景视图有一个距离屏幕远近变换的效果, 所以这里必须要用到Transform.m34这个属性.
-- ###背景视图旋转时时, 分别绕顶部和底部旋转, 所以需要修改图层的anchorPoint属性.
-- ###点击图片时, 由于子控件超出父控件, 所以子控件并不能响应点击事件, 这时响应点击事件的是背景视图, 这里需要使用hitTest:方法来改变事件的响应者.
+- 背景视图有一个距离屏幕远近变换的效果, 所以这里必须要用到Transform.m34这个属性.
+- 背景视图旋转时时, 分别绕顶部和底部旋转, 所以需要修改图层的anchorPoint属性.
+- 点击图片时, 由于子控件超出父控件, 所以子控件并不能响应点击事件, 这时响应点击事件的是背景视图, 这里需要使用hitTest:方法来改变事件的响应者.
 <br />
 <br />
 
@@ -44,7 +44,7 @@
 
 <br />
 ## 效果图:
-![Mou icon](/Users/fisher/Desktop/Fold.gif)
+![Mou icon](https://github.com/EvanFisher/FoldBackgroundView/raw/master/Logo/Fold.gif)
 
 
 
