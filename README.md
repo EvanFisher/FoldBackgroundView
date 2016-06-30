@@ -2,6 +2,9 @@
 ##模仿淘宝和京东APP在选择商品详情时, 折叠后面的视图(OC实现).
 
 
+<br />
+## 效果图:
+![Mou icon](https://github.com/EvanFisher/FoldBackgroundView/raw/master/Logo/Fold.gif)
 
 <br />
 <br />
@@ -42,9 +45,6 @@
 ```
 
 
-<br />
-## 效果图:
-![Mou icon](https://github.com/EvanFisher/FoldBackgroundView/raw/master/Logo/Fold.gif)
 
 
 
